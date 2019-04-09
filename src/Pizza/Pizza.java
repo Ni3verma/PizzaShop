@@ -7,10 +7,10 @@ import java.util.ArrayList;
  */
 public abstract class Pizza {
 
-    String name;
-    String dough;
-    String sauce;
-    ArrayList<String> toppings = new ArrayList<>();
+    public String name;
+    public String dough;
+    public String sauce;
+    public ArrayList<String> toppings = new ArrayList<>();
 
     void prepare() {
         System.out.println("preparing " + name + " ...");
