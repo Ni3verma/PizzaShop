@@ -3,7 +3,6 @@ package Pizza.NYStylePizza;
 import Pizza.Pizza;
 
 /**
- *
  * @author nitin
  */
 public class NYStyleClamPizza extends Pizza {

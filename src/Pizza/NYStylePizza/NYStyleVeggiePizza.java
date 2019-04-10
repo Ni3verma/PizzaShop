@@ -1,7 +1,6 @@
 package Pizza.NYStylePizza;
 
 /**
- *
  * @author nitin
  */
 public class NYStyleVeggiePizza extends Pizza.Pizza {
