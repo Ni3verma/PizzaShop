@@ -12,7 +12,7 @@ public abstract class Pizza {
     public String sauce;
     public ArrayList<String> toppings = new ArrayList<>();
 
-    void prepare() {
+    public void prepare() {
         System.out.println("preparing " + name + " ...");
         System.out.println("Tossing dough ...");
         System.out.println("Addign sauce ...");
@@ -22,19 +22,19 @@ public abstract class Pizza {
         }
     }
 
-    void bake() {
+    public void bake() {
         System.out.println("Baking for 25 min");
     }
 
-    void cut() {
+    public void cut() {
         System.out.println("Cutting in diagonal slices");
     }
 
-    void box() {
+    public void box() {
         System.out.println("boxing the pizza !!");
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 }
