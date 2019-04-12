@@ -1,16 +1,18 @@
 package pizzashop;
 
+import Pizza.Pizza;
+import PizzaStore.NYStylePizzaStore;
+import PizzaStore.PizzaStore;
+
 /**
- *
  * @author nitin
  */
 public class PizzaShop {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        PizzaStore nyStore = new NYStylePizzaStore();
+        Pizza pizza = nyStore.orderPizza("cheese");
+        System.out.println("You ordered a " + pizza.getName());
     }
-    
+
 }
