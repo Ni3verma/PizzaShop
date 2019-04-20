@@ -8,3 +8,6 @@ Here's the link to the post:
 
 ### Building the project
 This is a netbeans project. You can import it from netbeans ide. 
+
+# Learn more
+If you want to learn about Abstract factory pattern also. click [here](https://medium.com/@Nitin_code/abstract-factory-pattern-2193667dcad6)
